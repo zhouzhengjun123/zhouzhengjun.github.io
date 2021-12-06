@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            list-style:none;
+            font-size: 20px;
+            color:#f4f1de
+        }
+        body{
+            height:40vh;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            background-image:linear-gradient(to right,#a18cd1,#fbc2eb)
+        }
+        .shell{
+            display:flex;
+            justify-content:center;
+        }
+        .buttom{
+            background-color:#50536e;
+            width:170px;
+            height:65px;
+            text-align:center;
+            line-height:65px;
+            transition:.3s;
+            cursor:pointer;
+        }
+        .buttom:hover{
+            background-color:#d15a39;
+        }
+        .buttom li:hover{
+            background-color: #ffb29d;
+        }
+        .buttom ul li{
+            height:0;
+            transition:.2s;
+            opacity:0;
+            transform:translateY(-65px);
+            background-color:#e07a5f;
+        }
+        .buttom:hover li{
+            height:65px;
+            opacity:1;
+            transform:translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <ul class="shell">
+        <li class="buttom">
+            <span>实验一</span>
+            <ul>
+                <li>
+                    <a href="./sy_html/sy1-1.html">实验1-1</a>
+                </li> 
+                <li>
+                    <a href="./sy_html/sy1-2.html">实验1-2</a>
+                </li> 
+                <li>
+                    <a href="./sy_html/sy1-3.html">实验1-3</a>
+                </li> 
+                <li>
+                    <a href="./sy_html/sy1-4.html">实验1-4</a>
+                </li> 
+                <li>
+                    <a href="./sy_html/sy1-5.html">实验1-5</a>
+                </li> 
+                <li>
+                    <a href="./sy_html/sy1-6.html">实验1-6</a>
+                </li>    
+            </ul>
+        </li>
+        <li class="buttom">
+            <span>实验二</span>
+            <ul>
+                <li>
+                    <a href="./sy_html/sy2-1.html">实验2-1</a>
+                </li> 
+                <li>
+                    <a href="./sy_html/sy2-2.html">实验2-2</a>
+                </li> 
+                <li>
+                    <a href="./sy_html/sy2-3.html">实验2-3</a>
+                </li> 
+                <li>
+                    <a href="./sy_html/sy2-4.html">实验2-4</a>
+                </li>    
+            </ul>
+               
+        </li>
+        <li class="buttom">
+            <span>实验三</span>
+            <ul>
+                <li>
+                    <a href="./sy_html/sy3-1.html">实验3-1</a>
+                </li> 
+                <li>
+                    <a href="./sy_html/sy3-2.html">实验3-2</a>
+                </li> 
+                <li>
+                    <a href="./sy_html/sy3-3.html">实验3-3</a>
+                </li> 
+                <li>
+                    <a href="./sy_html/sy3-4.html">实验3-4</a>
+                </li> 
+                <li>
+                    <a href="./sy_html/sy3-5.html">实验3-5</a>
+                </li> 
+            </ul>
+        </li>
+        <li class="buttom">
+            <span>实验四</span>
+            <ul>
+                <li>
+                    <a href="./sy_html/sy4-1.html">实验4-1</a>
+                </li> 
+                <li>
+                    <a href="./sy_html/sy4-2.html">实验4-2</a>
+                </li>    
+            </ul>
+        </li>
+    
+    </ul>
+</body>
+</html>
